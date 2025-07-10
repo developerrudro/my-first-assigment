@@ -217,7 +217,7 @@ text-align: center;
  gap: 20px;
  background-color: white;
  border-radius: 16px;
- margin: 116px 159px 10000px 141px;
+ margin: 116px 159px 160px 141px;
  box-shadow: 5px 2px 20px #F2EDED;
 }
 
@@ -236,4 +236,56 @@ text-align: center;
   font-size: 50px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
+}
+
+
+/* footer style */
+.getting-touch{
+  display: flex;
+  justify-content: space-between;
+  
+  width: 1140px;
+ height: 632px;
+ margin: 116px 159px 116px 141px;
+align-items: center;
+}
+.touch-title{
+  font-size: 97px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+.touch-form{
+  
+  width: 497px;
+  height: 490px;
+}
+.touch-form form input{
+  width: 450px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 10px 32px;
+}
+.touch-form form textarea{
+  width: 450px;
+  height:135px ;
+  border-radius: 10px;
+  padding: 10px 32px;
+}
+
+label{
+ 
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+
+}
+.btn3{
+  margin-top: 20px;
+  font-size: 16px;
+  width: 520px;
+  height: 48px;
+  align-items: center;
+  color: white;
+  background-color: #4e47ff;
+  border-radius: 9px;
+  padding: 6px 12px;
 }
