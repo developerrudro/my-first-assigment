@@ -176,7 +176,7 @@ font-size: 20px;
  border-radius: 12px;
  background-color: #FFFFFF;
  /* background-color: white; */
- box-shadow: 2px 2px 0.5px #F2EDED;
+ box-shadow: 2px 2px 15px #F2EDED;
 
 }
 
@@ -205,4 +205,35 @@ font-size: 20px;
 }
 .date{
   color: #b1b1b1;
+}
+
+
+/* focus sector style */
+.focus{
+  
+text-align: center;
+  width: 1140px;
+ height: 696px;
+ gap: 20px;
+ background-color: white;
+ border-radius: 16px;
+ margin: 116px 159px 10000px 141px;
+ box-shadow: 5px 2px 20px #F2EDED;
+}
+
+.focus-item{
+  
+  padding-top:71px ;
+  padding-bottom: 20px;
+}
+.focus-item-img img{
+  width: 840px;
+  height: 364px;
+  margin: 0 auto;
+  border-radius: 48px;
+}
+.focus-item-title{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
 }
