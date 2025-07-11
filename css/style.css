@@ -27,6 +27,14 @@ body {
   background-color: #4e47ff;
   border-radius: 7px;
   padding: 6px 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-style: none;
+}.btn:hover{
+  color: black;
+  background-color: #CAE5BC;
+
+ transform: scale(.89);
 }
 
 /* navber style */
@@ -100,8 +108,14 @@ body {
   background-color: #4e47ff;
   border-radius: 7px;
   padding: 6px 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-style: none;
 }
-
+.btn2:hover{
+  color: black;
+  background-color: #CAE5BC;transform: scale(.89);
+}
 .action-sector-title {
   font-size: 42px;
   font-weight: bold;
@@ -177,12 +191,21 @@ body {
 
 .card-text {
   padding-bottom: 24px;
-}
+} 
+
 
 .user-told{
 font-size: 42px;
   font-weight: bold;
+ margin: auto 350px;
+  width: 1140px;
+  height: 49px;
+  
+  margin: 116px 159px 160px 141px;
+  /* display: inline; */
   text-align: center;
+
+
 }
 .reviewer-name {
   color: #474747;
@@ -272,13 +295,17 @@ label {
   background-color: #4e47ff;
   border-radius: 9px;
   padding: 6px 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-style: none;
 }
+
 .footer-section {
   background-color: white;
   width: 1440px;
   height: 428px;
   text-align: center;
-  
+ 
 }
 
 .logo-2 {
@@ -287,9 +314,14 @@ label {
   font-weight: 800;
   font-family: 'Inter', sans-serif;
   text-align: center;
+  
 }
+.btn3:hover{
+  color: black;
+  background-color: #CAE5BC;
 
-
+ transform: scale(.89);
+}
 .nav-section{
   
   margin:20px 550px ;
@@ -307,3 +339,9 @@ margin-right: 20px;
   display: flex;
 
 }
+
+.footer-edit{
+
+  padding-top: 60px;
+}
+
