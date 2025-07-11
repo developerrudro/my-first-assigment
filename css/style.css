@@ -187,9 +187,15 @@ font-size: 42px;
 .reviewer-name {
   color: #474747;
 }
+.reviewer-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+}
 .date {
   color: #b1b1b1;
 }
+
 
 /* focus sector style */
 .focus {
@@ -254,6 +260,7 @@ font-size: 42px;
 label {
   font-weight: 800;
   font-family: 'Inter', sans-serif;
+  color: #474747;
 }
 .btn3 {
   margin-top: 20px;
